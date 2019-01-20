@@ -1,3 +1,5 @@
+package Exercises;
+
 public class MiddleCharFromString {
     public static void main(String[] args) {
         String testString = "aaafgtbaaa";

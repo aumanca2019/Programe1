@@ -1,3 +1,5 @@
+package Exercises;
+
 public class ListOperations {
     public static void main(String[] args) {
         Integer[] lotsOfNumber = new Integer[]{44,1, 5, 8, 21, 33, 9, 12, 56,};
