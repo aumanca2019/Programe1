@@ -15,6 +15,8 @@ public class ListOperations {
         printSumOfFirstFourIntegers(lotsOfNumber);
         System.out.println();
         printSumOfFirstFiveIntegersBiggerThan2(lotsOfNumber);
+        System.out.println();
+        printNumberOfFirstIntegersWithSum10(lotsOfNumber);
 
     }
 
@@ -83,11 +85,29 @@ public class ListOperations {
             count++;
         }
 
-            System.out.println(sum);
+            System.out.print(sum);
     }
+    public static void printNumberOfFirstIntegersWithSum10(Integer lotsOfNumber[]) {
+        int sum10 = 0;
+        int count2 =0;
+
+        for (int i = 0; i <lotsOfNumber.length; i++) {
+            sum10 = sum10 + lotsOfNumber[i];
+            if (sum10 < 76)
+
+                count2++;
+        }
+        System.out.print(count2);
+
+        }
 
 
-}
+
+        }
+
+
+
+
 
 
 
